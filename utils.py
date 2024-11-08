@@ -12,12 +12,12 @@ from PyPDF2 import PdfReader
 from docx import Document
 from neo4j import GraphDatabase
 
-# Import LangChain components
-from langchain.graphs import Neo4jGraph
-from langchain.vectorstores.neo4j_vector import Neo4jVector
-from langchain.embeddings import HuggingFaceEmbeddings
-from langchain.chains import RetrievalQA, GraphCypherQAChain
-from langchain.agents import initialize_agent, Tool, AgentType
+# Import LangChain Community components
+from langchain_community.graphs import Neo4jGraph
+from langchain_community.vectorstores.neo4j_vector import Neo4jVector
+from langchain_community.embeddings import HuggingFaceEmbeddings
+from langchain_community.chains import RetrievalQA, GraphCypherQAChain
+from langchain_community.agents import initialize_agent, Tool, AgentType
 
 # Configure logging
 logging.basicConfig(
